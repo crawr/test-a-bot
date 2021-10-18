@@ -12,7 +12,7 @@
       "label": "bug",
       "globs": [
         "*# Bug*",
-        "bug
+        "bug"
       ],
       "comment": "Thank you for creating a bug report, if you haven't already please ensure you have provided include steps to reproduce it and as much context as possible."
     }
