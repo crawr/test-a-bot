@@ -7,10 +7,9 @@ jobs:
       - uses: wow-actions/auto-comment@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issuesLabeled: 'enhancement'
           issuesOpenedComment: |
-            👋 @{{ author }} Thank you for raising an issue. We will investigate into the matter and get back to you as soon as possible.
+            Hi @{{ author }}, thank you for raising this issue. 
             
-            If you're reporting a bug, please make sure you include steps to reproduce it and as much context as possible.
-            
-            If you're requesting for an enhancement, the community has 60 days to upvote the issue.
-            If it receives 20 upvotes we will move it to our backlog. If not, we will close it.
+            The community has 30 days to upvote 👍 the issue.
+            If it receives 10 upvotes we will move it to our backlog. If not, we will close it.
