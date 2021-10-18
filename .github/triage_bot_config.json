@@ -1,7 +1,6 @@
 {
   "labels": [
     {
-      "label": "enhancement",
       "globs": [
         "*# Feature*",
         "enhancement"
@@ -9,7 +8,6 @@
       "comment": "This feature request is now a candidate for our backlog. The community has 60 days to upvote 👍 the issue. If it receives 20 upvotes we will move it to our backlog. If not, w will close it."
     },
     {
-      "label": "bug",
       "globs": [
         "*# Bug*",
         "bug"
