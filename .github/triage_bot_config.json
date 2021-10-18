@@ -2,7 +2,7 @@
   "labels": [
     {
       "label": "enhancement",
-      "globs": [ // Globs to match in the issue body
+      "globs": [
         "*# Feature*",
         "enhancement"
       ],
