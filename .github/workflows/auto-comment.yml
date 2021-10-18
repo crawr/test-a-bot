@@ -8,6 +8,9 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           issuesOpenedComment: |
-            👋 @{{ author }}
-            Thank you for raising an issue. We will investigate into the matter and get back to you as soon as possible.
-            Please make sure you have given us as much context as possible.
+            👋 @{{ author }} Thank you for raising an issue. We will investigate into the matter and get back to you as soon as possible.
+            
+            If you're reporting a bug, please make sure you include steps to reproduce it and as much context as possible.
+            
+            If you're requesting for an enhancement, the community has 60 days to upvote the issue.
+            If it receives 20 upvotes we will move it to our backlog. If not, we will close it.
